@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.footer {
+    font-family: "Itim", cursive !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+
+    background-color: #03045E;
+    color: #ffffff;
+
+    padding: 40px 0;
+    // color: #ffffff;
+    /* Text color */
+}
+
+.footer .footer-logo {
+    margin-top: 0px;
+    max-height: 200px;
+    margin-right: 20px;
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    color: #ffffff;
+    /* Heading color */
+    margin-bottom: 1rem;
+}
+
+.footer p,
+.footer a {
+    color: #ffffff;
+    /* Text and link color */
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #007bff;
+    /* Link hover color */
+}
+
+.footer .social-icon {
+    font-size: 1.5rem;
+    color: #ffffff;
+    /* Social icon color */
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icon:hover {
+    color: #007bff;
+    /* Social icon hover */
+}
+
+.footer .text-success {
+    color: #ff1493;
+    /* Button/brand color */
+}
+
+.footer .text-success:hover {
+    color: #007bff;
+}
+
+.footer .row {
+    margin-top: 20px;
+}
+
+.footer .row.text-center p {
+    font-size: 0.875rem;
+    color: #333;
+}

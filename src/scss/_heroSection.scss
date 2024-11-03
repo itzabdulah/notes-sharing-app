@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.hero {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 430px;
+    padding: 60px;
+    border-radius: 4px;
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+.hero-content {
+    margin-left: 0.5rem;
+    flex: 1;
+    color: #ffffff;
+    max-width: 50%;
+    font-family: "Itim", cursive !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.hero-content h1 {
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    font-family: "Itim", cursive !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.hero-content button {
+    background-color: #ee9b00;
+    // padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.hero-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    // margin-right: ;
+    // max-height: 100%;
+    max-height: 330px;
+    max-width: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+    max-height: 330px;
+    object-fit: cover;
+    padding-bottom: 70px;
+    padding-right: 100px;
+}
+
+
+
